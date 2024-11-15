@@ -1,0 +1,9 @@
+{
+    "scripts": {
+     "bulid" :" tailwindcss -i ./style.css -o ./src/output.css ",
+     "watch" :" tailwindcss -i ./style.css -o ./src/output.css --watch"
+    },
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
+  }
+}
